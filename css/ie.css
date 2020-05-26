@@ -1,0 +1,5 @@
+.navbar-brand{
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eku492.eku.edu/sites/all/themes/home2/img/new-logo-white-small2.png', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://eku492.eku.edu/sites/all/themes/home2/img/new-logo-white-small2.png', sizingMethod='scale')";
+}

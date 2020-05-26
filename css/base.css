@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,100,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,100,700);
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  /*
+  background-color: #fff;
+  border: 1px solid #fff;
+  */
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+
+}
+
+body {
+  color: #333;
+  text-align: center;
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.navbar-inverse{
+	box-shadow: 1px 0px 1px #000;
+	border: none;
+	background-color: #5E213B;
+	border-color: #080808;
+	background-color: #3F0D22;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#5E213B),to(#320D1D));
+	background-image: -webkit-linear-gradient(top,#5E213B,#320D1D);
+	background-image: -moz-linear-gradient(top,#5e213b,#320d1d);
+	background-image: -o-linear-gradient(top,#5e213b,#320d1d);
+	background-image: -ms-linear-gradient(top,#5e213b,#320d1d);
+	background-image: linear-gradient(top,#5e213b,#320d1d);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#5e213b',EndColorStr='#320d1d');
+	border-top: 1px solid #6E384F;	
+	
+}
+.navbar-nav {float: right}
+.navbar .container .navbar-brand{	margin-left:15px;}
+.navbar-brand{
+	width: 94px;
+	height: 30px;
+	background: url(http://www.eku.edu/sites/all/themes/home2/img/new-logo-white-small2.png);
+	background-size: cover ;
+	color: rgba(0, 0, 0, 0);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 10px;
+ 
+}
+
+.navbar-header .eku-name{
+	font-size: .7em;
+	line-height: 1;
+	text-transform: uppercase;
+	float: left;
+}
+.navbar-header .site-name{
+	line-height: 1;
+	font-family: "Source Sans Pro","Helvetica Neue","Arial",sans-serif;
+	font-size: 1.2em;
+	font-weight:normal;
+	text-align:left;
+	padding-top: 5px;
+	float: left;
+	page-break-inside: inherit;
+}
+.navbar-header .navbar-brand-text{
+	width: 280px;
+	text-align: left;
+	margin-top: 10px;
+}
+.navbar-inverse .navbar-nav>li>a{padding: 10px 10px;}
+.navbar-inverse .navbar-nav>li>a{color: #fff;}
+.navbar-inverse .navbar-nav>li>a:hover{color:#ccc;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background-color: none;}
+.navbar-inverse .navbar-nav li.last a{padding-right: 0px;}
+@media (min-width: 768px){
+	.navbar .container .navbar-brand{	margin-left:0px;}
+	.navbar-header .site-name{	padding-top: 1px;}
+	.navbar-inverse .navbar-nav>li>a{padding: 15px 10px;}
+}
+
+.marketing .row{margin-bottom: 40px;}
